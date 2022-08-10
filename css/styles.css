@@ -644,7 +644,7 @@ progress {
 
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 60vw;
   }
 }
 
@@ -7485,7 +7485,6 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
 
@@ -7710,7 +7709,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: blueviolet !important;
 }
 
 .text-secondary {
