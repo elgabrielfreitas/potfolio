@@ -233,7 +233,7 @@ sup {
   color: darkorchid;
 }
 
-.logo {
+.logoGF {
   height: 60px;
 }
 
@@ -11526,8 +11526,8 @@ p.lead {
 
 @media (max-width: 600px) {
   .social-icon-curriculum, .social-icon-linkedin, .social-icon-github, .social-icon-email, .social-icon-instagram, .social-icon-phone {
-    height: 8vw;
-    width: 8vw;
+    height: 9vw;
+    width: 9vw;
   }
 
   .item-curriculum, .item-linkedin, .item-github, .item-email, .item-instagram, .item-phone {
