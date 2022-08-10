@@ -6542,6 +6542,7 @@ textarea.form-control-lg {
   right: 0;
   left: 0;
   z-index: 1030;
+  height: 5rem;
 }
 
 .fixed-bottom {
@@ -11403,17 +11404,18 @@ p.lead {
   }
 }
 .social-icons {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .social-icon-curriculum {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 5vw;
+  width: 5vw;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -11429,8 +11431,8 @@ p.lead {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 5vw;
+  width: 5vw;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -11446,8 +11448,8 @@ p.lead {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 5vw;
+  width: 5vw;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -11463,8 +11465,8 @@ p.lead {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 5vw;
+  width: 5vw;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -11480,8 +11482,8 @@ p.lead {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 5vw;
+  width: 5vw;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -11497,8 +11499,8 @@ p.lead {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 5vw;
+  width: 5vw;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -11507,8 +11509,55 @@ p.lead {
 }
 
 .social-icon-instagram:hover {
-  background-color: red;
+  background-color: yellowgreen;
 }
+
+.social-icon-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw;
+  width: 5vw;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.social-icon-phone:hover {
+  background-color: tomato;
+}
+
+.item-curriculum, .item-linkedin, .item-github, .item-email, .item-instagram, .item-phone {
+  width: 2vw;
+  height: 2vw;
+}
+
+@media (max-width: 996px) {
+  .social-icon-curriculum, .social-icon-linkedin, .social-icon-github, .social-icon-email, .social-icon-instagram, .social-icon-phone {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .item-curriculum, .item-linkedin, .item-github, .item-email, .item-instagram, .item-phone {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .social-icon-curriculum, .social-icon-linkedin, .social-icon-github, .social-icon-email, .social-icon-instagram, .social-icon-phone {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  .item-curriculum, .item-linkedin, .item-github, .item-email, .item-instagram, .item-phone {
+    width: 3vw;
+    height: 3vw;
+  }
+}
+
 
 #show{
   display: none;
