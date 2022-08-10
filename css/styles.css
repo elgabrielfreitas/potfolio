@@ -234,7 +234,7 @@ sup {
 }
 
 .logo {
-  height: 4rem;
+  height: 60px;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
