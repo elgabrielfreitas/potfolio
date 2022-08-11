@@ -6761,7 +6761,7 @@ textarea.form-control-lg {
 
 .position-relative {
   position: relative !important;
-  padding-bottom: 0;  
+  padding-bottom: 20px;  
 }
 
 .portfolio-btn {
