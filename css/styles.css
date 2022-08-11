@@ -6701,6 +6701,7 @@ textarea.form-control-lg {
 
 .d-inline {
   display: inline !important;
+  font-size: 2rem;
 }
 
 .d-inline-block {
