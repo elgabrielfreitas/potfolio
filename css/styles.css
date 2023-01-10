@@ -6766,9 +6766,23 @@ textarea.form-control-lg {
 }
 
 .portfolio-btn {
-  background-color: dodgerblue;
+  color: white;
+  background-color: purple;
   height: 30px;
 }
+
+.portfolio-btn a {
+  color: white;
+  background-color: purple;
+  height: 30px;
+}
+
+.portfolio-btn a:hover {
+  color: darksalmon ;
+  background-color: purple;
+  height: 30px;
+}
+
 
 .p-expirience {
   margin-right: 3rem;
